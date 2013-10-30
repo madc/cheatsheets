@@ -2,7 +2,7 @@
 
 ## List ports
 
-### List of installed MacPorts (without dependencies)<sup>[1]</sup>
+### List of installed MacPorts (without dependencies)<sup>1</sup>
 
     port installed requested
 
