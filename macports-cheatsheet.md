@@ -24,7 +24,7 @@
 
 List all 'leaves':
 
-    port list leaves
+    port installed leaves
 
 Uninstall all leaves:
 
