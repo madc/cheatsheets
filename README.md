@@ -24,6 +24,10 @@
 The second command can be run repeatedly. It also removes dependencies, that are used to build ports.
 These dependencies might be re-installed on install or upgrade of a port.
 
+Exclude dependencies, that are only needed at build time:
+
+    sudo port_cutleaves -b
+
 ## Footnotes / Links
 
 1. http://stackoverflow.com/a/15050762/709769
