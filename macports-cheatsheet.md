@@ -16,7 +16,23 @@
 
     sudo port -f uninstall inactive
 
+### Uninstall port and its dependencies<sup>3</sup>
+
+    sudo port uninstall --follow-dependencies portname
+
 ### Uninstall unused dependencies<sup>3</sup>
+
+List all 'leaves':
+
+    port list leaves
+
+Uninstall all leaves:
+
+    sudo port uninstall leaves
+
+#### Using port_cutleaves<sup>4</sup>
+
+port_cutleaves provides an interactive mode.
 
     sudo port install port_cutleaves
     sudo port_cutleaves
@@ -32,4 +48,5 @@ Exclude dependencies, that are only needed at build time:
 
 1. http://stackoverflow.com/a/15050762/709769
 2. http://superuser.com/a/165670/265044
-3. http://www.jbmurphy.com/2011/02/17/my-mac-ports-cheat-sheet/
+3. http://apple.stackexchange.com/a/10190
+4. http://www.jbmurphy.com/2011/02/17/my-mac-ports-cheat-sheet/
