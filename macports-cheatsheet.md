@@ -44,7 +44,9 @@ Exclude dependencies, that are only needed at build time:
 
     sudo port_cutleaves -b
 
-## Footnotes / Links
+## References
+
+### Footnotes / Links
 
 1. http://stackoverflow.com/a/15050762/709769
 2. http://superuser.com/a/165670/265044
