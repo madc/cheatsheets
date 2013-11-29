@@ -16,7 +16,7 @@
 
     find . -depth -empty -type d -delete
 
-## Reverences
+## References
 
 ### Footnotes / Links
 
