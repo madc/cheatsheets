@@ -2,7 +2,7 @@
 
 ## Files and Directories
 
-## Recursively find files by extension<sup>1</sup>
+### Recursively find files by extension<sup>1</sup>
 
     find . -name "*.txt" -type f
 
