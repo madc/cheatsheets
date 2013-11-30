@@ -32,7 +32,7 @@
 
 or
 
-    file . -name '*.*' -type f | sed 's@.*/.*\.@.@' | sort | uniq
+    find . -name '*.*' -type f | sed 's@.*/.*\.@.@' | sort | uniq
 
 
 ## References
