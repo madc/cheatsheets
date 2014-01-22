@@ -34,6 +34,11 @@ or
 
     find . -name '*.*' -type f | sed 's@.*/.*\.@.@' | sort | uniq
 
+## Misc.
+
+### Open a URL from commandline<sup>6</sup>
+
+    open -a Firefox 'http://madcity.at'
 
 ## References
 
@@ -44,3 +49,4 @@ or
 3. http://stackoverflow.com/a/2811135/709769
 4. http://www.commandlinefu.com/commands/view/1981
 5. http://www.commandlinefu.com/commands/view/6308
+6. http://stackoverflow.com/a/10866637/709769
