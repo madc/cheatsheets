@@ -40,6 +40,10 @@ or
 
     open -a Firefox 'http://madcity.at'
 
+### End a stuck SSH session<sup>7</sup>
+
+Press <kbd>Enter</kbd>, <kbd>~</kbd> and then <kbd>.</kbd> as a separate keystroke
+
 ## References
 
 ### Footnotes / Links
@@ -50,3 +54,4 @@ or
 4. http://www.commandlinefu.com/commands/view/1981
 5. http://www.commandlinefu.com/commands/view/6308
 6. http://stackoverflow.com/a/10866637/709769
+7. http://www.arklyffe.com/main/2011/02/01/close-stuck-ssh-sessions/
