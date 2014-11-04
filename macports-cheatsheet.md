@@ -44,6 +44,14 @@ Exclude dependencies, that are only needed at build time:
 
     sudo port_cutleaves -b
 
+## Application related
+
+### Apache2
+
+#### Start|Stop|Restart Apache2<sup>5</sup>
+
+    sudo /opt/local/apache2/bin/apachectl -k start|stop|restart
+
 ## References
 
 ### Footnotes / Links
@@ -51,4 +59,5 @@ Exclude dependencies, that are only needed at build time:
 1. http://stackoverflow.com/a/15050762/709769
 2. http://superuser.com/a/165670/265044
 3. http://apple.stackexchange.com/a/10190
-4. http://www.jbmurphy.com/2011/02/17/my-mac-ports-cheat-sheet/
+4. http://www.jbmurphy.com/2011/02/17/my-mac-ports-cheat-sheet
+5. https://trac.macports.org/wiki/howto/MAMP
